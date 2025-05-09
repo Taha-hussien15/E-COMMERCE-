@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - GlobalMart</title>
+    <link rel="stylesheet" href="style .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar (same as index.html) -->
+    <!-- Header (same as index.html) -->
+    <!-- Navigation (same as index.html) -->
+
+    <!-- Product Listing Section -->
+    <section class="product-listing">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="1. index.html (Home Page).html">Home</a> > <span>Products</span>
+            </div>
+            
+            <div class="listing-header">
+                <h1>All Products</h1>
+                <div class="sort-filter">
+                    <span>Sort by:</span>
+                    <select id="sort-options">
+                        <option value="popular">Most Popular</option>
+                        <option value="newest">Newest First</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="listing-container">
+                <aside class="filters">
+                    <h3>Filters</h3>
+                    <div class="filter-section">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Home & Garden</a></li>
+                            <li><a href="#">Apparel</a></li>
+                            <li><a href="#">Machinery</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Price Range</h4>
+                        <div class="price-range">
+                            <input type="range" min="0" max="1000" value="500" class="slider" id="price-range">
+                            <div class="range-values">
+                                <span>$0</span>
+                                <span>$1000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-section">
+                        <h4>Supplier Location</h4>
+                        <select>
+                            <option>All Countries</option>
+                            <option>United States</option>
+                            <option>China</option>
+                            <option>Germany</option>
+                            <option>Japan</option>
+                        </select>
+                    </div>
+                    <button class="btn-primary apply-filters">Apply Filters</button>
+                </aside>
+                
+                <main class="products-grid">
+                    <!-- Product cards will be loaded via JavaScript -->
+                </main>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+
+    <script src="main.js"></script>
+</body>
+</html>

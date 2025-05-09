@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - GlobalMart</title>
+    <link rel="stylesheet" href="style .css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar (same as index.html) -->
+    <!-- Header (same as index.html) -->
+    <!-- Navigation (same as index.html) -->
+
+    <!-- Shopping Cart Section -->
+    <section class="shopping-cart">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="1. index.html (Home Page).html">Home</a> > <span>Shopping Cart</span>
+            </div>
+            
+            <h1>Shopping Cart</h1>
+            
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="cart-header">
+                        <div class="header-item product">Product</div>
+                        <div class="header-item price">Price</div>
+                        <div class="header-item quantity">Quantity</div>
+                        <div class="header-item total">Total</div>
+                        <div class="header-item action">Action</div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="cart-item-product">
+                            <img src="images/product-1-thumb1.jpg" alt="Product Image">
+                            <div class="product-details">
+                                <h4>Premium Wireless Bluetooth Earbuds</h4>
+                                <p>Color: Black</p>
+                            </div>
+                        </div>
+                        <div class="cart-item-price">$49.99</div>
+                        <div class="cart-item-quantity">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="1" min="1">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="cart-item-total">$49.99</div>
+                        <div class="cart-item-action">
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="cart-item-product">
+                            <img src="images/product-2-thumb1.jpg" alt="Product Image">
+                            <div class="product-details">
+                                <h4>Smart Watch with Fitness Tracker</h4>
+                                <p>Color: Silver</p>
+                            </div>
+                        </div>
+                        <div class="cart-item-price">$89.99</div>
+                        <div class="cart-item-quantity">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="1" min="1">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="cart-item-total">$89.99</div>
+                        <div class="cart-item-action">
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-actions">
+                        <button class="btn-outline continue-shopping"><i class="fas fa-arrow-left"></i> Continue Shopping</button>
+                        <button class="btn-outline update-cart">Update Cart</button>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span>$139.98</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Shipping</span>
+                            <span>$4.99</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Tax</span>
+                            <span>$8.40</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span>$153.37</span>
+                        </div>
+                    </div>
+                    
+                    <div class="coupon-code">
+                        <input type="text" placeholder="Enter coupon code">
+                        <button class="btn-outline apply-coupon">Apply</button>
+                    </div>
+                    
+                    <button class="btn-primary checkout-btn">Proceed to Checkout</button>
+                    
+                    <div class="payment-methods">
+                        <p>We accept:</p>
+                        <div class="payment-icons">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                            <i class="fab fa-cc-apple-pay"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+
+    <script src="main.js"></script>
+</body>
+</html>
